@@ -1,0 +1,30 @@
+<html>
+<head><title>Login Page</title>
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="csss.css">
+</head>
+<body>
+  <div class="content">
+      <div class="text">Log In</div>
+
+      <form name="login" method="POST" action="action.php">
+          <div class="field">
+              <span class="bx bxs-user"></span>
+              <input type="username" name="username" placeholder="Username" required>
+          </div>
+
+         <!-- <div class="field">
+            <span class="bx bxs-envelope"></span>
+            <input type="email" name="email" placeholder="Email" required>
+          </div> -->
+
+        <div class="field">
+            <span class="bx bxs-lock-alt"></span>
+            <input type="password" name="password" placeholder="Password" required>
+        </div>
+
+        <button name="submit">Login</button>
+</form>
+</div>
+</body>
+</html>
